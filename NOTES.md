@@ -10,7 +10,7 @@ List 3 things you are grateful for today
 
 ### Step 2: Working on the Overview
 
-Create an app that allows you track and maintain self-care daily. Allows you to make sure to 
+Create an app that allows you to track and maintain self-care daily. Allows you to make sure to 
 
 
 ### Step 3: List out all of the features
