@@ -1,7 +1,7 @@
 ### Brainstorming Ideas
 Daily Self-Care Routine
 
-maybe pull a daily quote
+maybe pull a daily quote (API)
 
 check off things done every day
 
