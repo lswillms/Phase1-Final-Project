@@ -36,3 +36,25 @@ textarea {
 label {
     text-align: center;
 }
+
+button {
+    margin: auto;
+    display: block;
+}
+
+textarea {
+    margin: auto;
+    display: block; 
+}
+
+label {
+    margin: auto;
+    display: block; 
+    font-family: cursive;
+    color:#663300 ;
+}
+
+input {
+    margin: auto;
+    display: block;
+}
