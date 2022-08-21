@@ -1,8 +1,5 @@
 {
-  "posts": 
-    {
-      "id": 1,
-      "quote": "json-server",
-      "author": "typicode"
-    }
+  "posts": {
+    "quote": []
+  }
 }

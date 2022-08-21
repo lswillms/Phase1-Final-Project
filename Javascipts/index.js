@@ -1,43 +1,15 @@
-let quote = []
+const checkBoxes = document.querySelectorAll("input[name=checkbox")
+console.log(checkBoxes)
 
-//Node getters
-const getQuoteButton = document.getElementById("quoteGrab")
+//Handle Events
 
-
-
-//Event Handlers
-const fetchRandomQuote = ()=> {
-  fetch("https://goquotes-api.herokuapp.com/api/v1/random?count=1")
-  .then(resp => resp.json())
-  .then(data => console.log(data.quotes))
+function handleDailyList() {
+  checkBoxes.accent.color = "green"
 }
 
-fetchRandomQuote()
-
-const fetchQuoteList = () => {
-  fetch("http://localhost:3000/posts", {
-  method: "POST",
-  headers: {
-    "Accept": "application/json",
-    "Content-Type" : "application/json",
-  },
-  body: JSON.stringify({quote: quote})
-})
-  .then(resp => resp.json())
-  .then (data => quote)
+//Event Listeners
+for (const box of checkBoxes) {
+  box.addEventListener('click', function onClick() {
+    handleDailyList();
+  });
 }
-
-function initializePage() {
- fetchRandomQuote()
-}
-initializePage()
-
-
-// //DOMContentLoaded
-// document.addEventListener("DOMContentLoaded", () => {
-//   randomQuoteClickEvent()
-// })
-
-// // //Event Listeners
-// getQuoteButton.addEventListener("click", fetchQuoteList())
-
