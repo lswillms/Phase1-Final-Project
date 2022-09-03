@@ -1,5 +1,8 @@
 body {
     background-color:antiquewhite;
+    margin: auto;
+    display: block;
+    text-align: center
 }
 
 h1 {
@@ -29,9 +32,6 @@ ul {
     color: #663300
 }
 
-textarea {
-    text-align: center;
-}
 
 label {
     text-align: center;
@@ -42,10 +42,7 @@ button {
     display: block;
 }
 
-textarea {
-    margin: auto;
-    display: block; 
-}
+
 
 label {
     margin: auto;
@@ -59,4 +56,16 @@ input {
     display: block;
 }
 
+.quote-text {
+    font-style: italic;
+    font-size: larger;
+    font-weight: 100;
+}
 
+.quote-author{
+    font-style: italic;
+}
+
+#container {
+   
+}

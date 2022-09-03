@@ -7,36 +7,36 @@
     <meta name = "author" content = "Latoshia Williams">
     <title>Self-Care</title>
     <link type = text/css rel = "stylesheet" href = "stylesheets/style.css"/>
-    <script src=  "Javascipts/index.js" defer></script>
+    <script defer src="Javascipts/index.js"></script>
 </head>
 <h1>Prioritize Your Daily Self-Care</h1>
 <body>
     <img src = "Images/Self Care.jpeg" alt = "Self-Care">
-<div id="quote"></div>
-    <h2>Quote For Today</h2>
-    <input type = "text"/>
-    <input id = "quoteGrab" type = "submit" value= "Get Quote">
-</div>
+
+   <div id="container"><h2>Quote For Today</h2>
+    <div id="quote"></div>
+    <p><div class="quote-text"></div></p>
+    <p><div class="quote-author"></div></p>
+    <!--Quotes will display here-->
+    <button id= "btn">New Quote</button>
+     </div>
 
  <div id="toDo">
     <h2>Daily Routine Checklist</h2>
-    <ul id = "myUL" class = "collection">
-        <li>Set aside time to practice mindfullness<input type="checkbox" name="checkbox"></li> 
-        <li>Get at least 8 hours of sleep<input type="checkbox" name="checkbox"></li>
-        <li>Complete 30 minutes of physical activity<input type="checkbox" name="checkbox"></li>
-        <li>Drink 8 glasses of water<input type="checkbox" name="checkbox"></li>
-        <li>Do one thing for yourself<input type="checkbox" name="checkbox"></li>
+    <span class = "collection">
+        <p id="text" style="display:none">Checkbox is CHECKED!</p>
+        <li>Set aside time to practice mindfullness<input type="checkbox" name="checkbox" text="text" ></li> 
+        <li>Get at least 8 hours of sleep<input type="checkbox" name="checkbox" text="text"></li>
+        <li>Complete 30 minutes of physical activity<input type="checkbox" name="checkbox" text="text"></li>
+        <li>Drink 8 glasses of water<input type="checkbox" name="checkbox" text="text"></li>
+        <li>Do one thing for yourself<input type="checkbox" name="checkbox" text="text"></li>
     </ul>
 </div>
+</span>
 
 <div id="gratitude" class = "container"></div>
     <h2>Gratitude Journal</h2>
-    <label for="freeform">What are you grateful for today?</label>
-<br>    
-     <textarea id="freeform" name="freeform" rows="4" cols="50">
- Enter text here...
-     </textarea>
-     <br>
+    <form>Enter Text Here</form>
      <button>Submit</button>
 </div>
 </body>
