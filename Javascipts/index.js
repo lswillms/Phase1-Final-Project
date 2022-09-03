@@ -1,15 +1,27 @@
 const checkBoxes = document.querySelectorAll("input[name=checkbox")
-console.log(checkBoxes)
 
-//Handle Events
+const quote = document.querySelector(".quote-text")
+const author = document.querySelector(".quote-author")
+const quoteButton = document.querySelector("button")
 
-function handleDailyList() {
-  checkBoxes.accent.color = "green"
+
+function getQuotes() {
+    const quoteurl = "https://goquotes-api.herokuapp.com/api/v1/random?count=1"
+    fetch(quoteurl)
+    .then(response => response.json())
+    .then((data) => {
+        quote.innerText = data.quotes[0].text
+        author.innerText = data.quotes[0].author
+    })
 }
 
-//Event Listeners
-for (const box of checkBoxes) {
-  box.addEventListener('click', function onClick() {
-    handleDailyList();
-  });
-}
+function 
+
+//  Event Listeners
+    quoteButton.addEventListener("click", getQuotes)
+    checkBoxes.addEventListener()
+
+
+
+
+
