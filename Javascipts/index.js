@@ -1,4 +1,5 @@
 const checkBoxes = document.querySelectorAll("input[name=checkbox")
+let taskTexts = document.querySelectorAll("li")
 
 const quote = document.querySelector(".quote-text")
 const author = document.querySelector(".quote-author")
@@ -15,11 +16,13 @@ function getQuotes() {
     })
 }
 
-function 
 
 //  Event Listeners
-    quoteButton.addEventListener("click", getQuotes)
-    checkBoxes.addEventListener()
+document.addEventListener("DOMContentLoaded", () => {
+   quoteButton.addEventListener("click", getQuotes)
+
+})
+
 
 
 
