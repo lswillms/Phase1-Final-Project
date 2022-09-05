@@ -17,7 +17,6 @@
     <div id="quote"></div>
     <p><div class="quote-text"></div></p>
     <p><div class="quote-author"></div></p>
-    <!--Quotes will display here-->
     <button id= "btn">New Quote</button>
      </div>
 
@@ -33,14 +32,18 @@
     </div>
     </span>
 
-    <div id="gratitude" class = "container"></div>
-        <h2>Gratitude Journal</h2>
-        <textarea>
-            "What are you grateful for today?"
+
+    <form action="" id= "form">
+        <div>
+        <h2>Gratitide Journal</h2>
+        <textarea placeholder= "What are you grateful for today?" name="comments" id="comments"></textarea>
         </textarea>
+        </div>
         <br>
-         <button>Submit</button>
-    </div>
+        <input id = "post" type="submit" value="Post"/>
+        <p id="unordered"></p>
+    </form>    
+
 </body>
 </html>
 

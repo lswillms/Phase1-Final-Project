@@ -4,6 +4,8 @@ let taskTexts = document.querySelectorAll("li")
 const quote = document.querySelector(".quote-text")
 const author = document.querySelector(".quote-author")
 const quoteButton = document.querySelector("button")
+const form = document.querySelector("#form")
+
 
 
 function getQuotes() {
@@ -15,16 +17,22 @@ function getQuotes() {
         author.innerText = data.quotes[0].author
     })
 }
-
+function postComment() {
+    let gratitudeBoxValue= document.getElementById("comments").value
+    let grateComment  = document.createTextNode(gratitudeBoxValue)
+    let completedComment = document.createElement("p")
+    completedComment.appendChild(grateComment)
+    document.getElementById("unordered").appendChild(completedComment)
+    
+}
 
 //  Event Listeners
-document.addEventListener("DOMContentLoaded", () => {
-   quoteButton.addEventListener("click", getQuotes)
-
-})
-
-
-
-
-
+    quoteButton.addEventListener("click", getQuotes)
+    document.addEventListener("submit",(e) => {
+    e.preventDefault(),
+    postComment()
+    form.reset()
+    })
+    
+// 
 
