@@ -1,10 +1,13 @@
-const checkBoxes = document.querySelectorAll("input[name=checkbox")
+
 let taskTexts = document.querySelectorAll("li")
 
 const quote = document.querySelector(".quote-text")
 const author = document.querySelector(".quote-author")
 const quoteButton = document.querySelector("button")
 const form = document.querySelector("#form")
+
+let box = document.querySelector("#one")  
+let checkBoxes = document.querySelector(".collection")
 
 
 
@@ -17,6 +20,19 @@ function getQuotes() {
         author.innerText = data.quotes[0].author
     })
 }
+
+function handleChecks() {
+   box.addEventListener("change", ()=> {
+        if(box.checked) {
+            style="color: #0000a0" 
+        }else {
+            box.style.backgroundColor = "#FF0000"
+        }
+    })
+}
+handleChecks()
+
+
 function postComment() {
     let gratitudeBoxValue= document.getElementById("comments").value
     let grateComment  = document.createTextNode(gratitudeBoxValue)
