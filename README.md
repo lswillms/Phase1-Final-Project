@@ -4,10 +4,8 @@ the #(markdown) converts to HTML as list - number of # coverts to heading type. 
 work on after finish project
 
 ### Requirements
-* Have json-server installled
 
 ### Installation Instructions
 * fork and clone
-* run json server and ds.json
 * open index.html in browser
 

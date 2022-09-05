@@ -42,20 +42,6 @@ button {
     display: block;
 }
 
-
-
-label {
-    margin: auto;
-    display: block; 
-    font-family: cursive;
-    color:#663300 ;
-}
-
-input {
-    margin: auto;
-    display: block;
-}
-
 .quote-text {
     font-style: italic;
     font-size: larger;
@@ -78,4 +64,10 @@ textarea {
     border: none;
     border-radius: 5px;
 }
+
+
+
+
+
+
 

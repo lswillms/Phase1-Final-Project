@@ -1,13 +1,11 @@
-
-let taskTexts = document.querySelectorAll("li")
-
 const quote = document.querySelector(".quote-text")
 const author = document.querySelector(".quote-author")
 const quoteButton = document.querySelector("button")
 const form = document.querySelector("#form")
 
-let box = document.querySelector("#one")  
-let checkBoxes = document.querySelector(".collection")
+
+
+const label = document.querySelectorAll("label")
 
 
 
@@ -21,34 +19,36 @@ function getQuotes() {
     })
 }
 
-function handleChecks() {
-   box.addEventListener("change", ()=> {
-        if(box.checked) {
-            style="color: #0000a0" 
-        }else {
-            box.style.backgroundColor = "#FF0000"
+  function handleCheckBoxes() {
+    const text = document.getElementById("text")
+    const checkbox = document.querySelectorAll("input[name=checkbox]");
+    checkbox.forEach(item => {
+    item.addEventListener( 'change', function() {
+        if(this.checked) {
+            text.style.display = "block"
+        } else {
+            text.style.display = "none";
         }
-    })
-}
-handleChecks()
+    });
+  })
+  }
 
+  handleCheckBoxes()
 
 function postComment() {
     let gratitudeBoxValue= document.getElementById("comments").value
     let grateComment  = document.createTextNode(gratitudeBoxValue)
     let completedComment = document.createElement("p")
     completedComment.appendChild(grateComment)
-    document.getElementById("unordered").appendChild(completedComment)
-    
+    document.getElementById("unordered").appendChild(completedComment)   
 }
 
 //  Event Listeners
+    window.addEventListener('load', getQuotes)
     quoteButton.addEventListener("click", getQuotes)
     document.addEventListener("submit",(e) => {
     e.preventDefault(),
     postComment()
     form.reset()
-    })
-    
-// 
-
+})
+  
