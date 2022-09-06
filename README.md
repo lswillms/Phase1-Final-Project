@@ -15,3 +15,6 @@ True self-care is different each day. However, there are daily things that we ca
 * Gratitude journal to post what you are grateful for that day.
 
 ### REQUIREMENTS
+![](journal.gif)
+![](checklist.gif)
+![](new-quote.gif)
