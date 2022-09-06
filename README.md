@@ -1,5 +1,5 @@
 ## PRIORITIZE YOUR DAILY SELF-CARE
-True self-care is different each day. However, there are daily things that we can practice daily to ensure that show up are the best versions of ourselves.urselves.
+True self-care is different each day. However, there are things that we can practice daily to ensure that show up are the best versions of ourselves. This application will give you the starting blocks of creating a daily routine.
 
 ### FEATURES
 
@@ -9,6 +9,7 @@ True self-care is different each day. However, there are daily things that we ca
 
 ### HOW TO USE
 1. Upon load of the page, a motivationl quoate with author will appear. To generate new quote, click the "New Quote" button.
+
 ![](new-quote.gif)
 
 2. The Daily Checklist Routine. Clicking on any of the checkboxes will put a checkmark to signify the item has been completed. A motivational message of "Great Work!" will also appear.
@@ -20,5 +21,5 @@ True self-care is different each day. However, there are daily things that we ca
 
 ![](journal.gif)
 
-Note: This app is a SPA (single page application)
+**_Note: This app is a SPA (single page application)_**
 
