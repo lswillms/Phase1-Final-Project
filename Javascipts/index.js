@@ -4,11 +4,6 @@ const quoteButton = document.querySelector("button")
 const form = document.querySelector("#form")
 
 
-
-const label = document.querySelectorAll("label")
-
-
-
 function getQuotes() {
     const quoteurl = "https://goquotes-api.herokuapp.com/api/v1/random?count=1"
     fetch(quoteurl)
@@ -32,7 +27,6 @@ function getQuotes() {
     });
   })
   }
-
   handleCheckBoxes()
 
 function postComment() {

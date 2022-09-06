@@ -2,14 +2,27 @@ body {
     background-color:antiquewhite;
     margin: auto;
     display: block;
+    color: #663300;
     
 }
 
-h1 {
+h1{
+    text-align: center;
+    font-size: 35px; 
+    font-style: italic;
+}
+
+h2, h3 {
     text-align: center;
     font-size: 35px;
-    color: #663300;
+    border-style: solid;
+    border-width: 5px;
 } 
+
+#container {
+    text-align: center
+
+}
 
 img {
     margin-left: auto;
@@ -18,26 +31,14 @@ img {
     width: 30%;
 }
 
-h2 {
+
+p {
     text-align: center;
-    color: #663300
+    font-size: 25px;
+    color: blue
 }
 
-h3 {
-    text-align: center;
-    color: #663300
-}
-
-ul {
-    color: #663300
-}
-
-
-label {
-    text-align: center;
-}
-
-button {
+button, #post {
     margin: auto;
     display: block;
 }
@@ -64,6 +65,17 @@ textarea {
     border: none;
     border-radius: 5px;
 }
+
+.collection{
+    display:list-item;
+    text-align: center;
+}
+
+#text {
+    color:darkgreen;
+    font-size: x-large;
+}
+
 
 
 
