@@ -1,5 +1,5 @@
 ## PRIORITIZE YOUR DAILY SELF-CARE
-True self-care is different each day. However, there are things that we can practice daily to ensure that show up are the best versions of ourselves. This application will give you the starting blocks of creating a daily routine.
+True self-care is different each day. However, there are things that we can practice daily to ensure that we show up are the best versions of ourselves. This application will give you the starting blocks of creating a daily self-care routine.
 
 ### FEATURES
 
