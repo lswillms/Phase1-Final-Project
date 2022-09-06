@@ -13,5 +13,8 @@ True self-care is different each day. However, there are daily things that we ca
 
 2. The Daily Checklist Routine
 ![](checklist.gif)
+
+
+3. The Gratitude Journal
 ![](journal.gif)
 
