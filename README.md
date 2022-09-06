@@ -11,10 +11,14 @@ True self-care is different each day. However, there are daily things that we ca
 1. Upon load of the page, a motivationl quoate with author will appear. To generate new quote, click the "New Quote" button.
 ![](new-quote.gif)
 
-2. The Daily Checklist Routine
+2. The Daily Checklist Routine. Clicking on any of the checkboxes will put a checkmark to signify the item has been completed. A motivational message of "Great Work!" will also appear.
+
 ![](checklist.gif)
 
 
-3. The Gratitude Journal
+3. The Gratitude Journal is where the user a type out what they are grateful for that day. The text will be posted below this section for reflection.
+
 ![](journal.gif)
+
+Note: This app is a SPA (single page application)
 
